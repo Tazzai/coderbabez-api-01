@@ -79,25 +79,34 @@ For an api, the parameters can be thought of separately from the url and we use 
 JSON is a way of representing javascript object as a string. 
 
 For example: [http://api.giphy.com/v1/gifs/search?q=dog&api_key=Rcx7a5vfUp1y6BZ1KjUtKLI2UovfkU3j](http://api.giphy.com/v1/gifs/search?q=dog&api_key=Rcx7a5vfUp1y6BZ1KjUtKLI2UovfkU3j)
-![BarkBox Plans API](http://wiki-content-bark.s3.amazonaws.com/coderbabez-barkbox-plans.png)
+![BarkBox Plans API](http://wiki-content-bark.s3.amazonaws.com/coderbabez-giphy-search.png)
 
 
 We can make that same request using jQuery instead of a browser:
 
 ```
-$.getJSON( // uses the GET http method
-  "http://api.giphy.com/v1/gifs/search?q=dog&api_key=Rcx7a5vfUp1y6BZ1KjUtKLI2UovfkU3j", // url
-  function(response) {
+$.getJSON( // make a request GET http method
+  "https://api.giphy.com/v1/gifs/search?q=dog&api_key=Rcx7a5vfUp1y6BZ1KjUtKLI2UovfkU3j", // request url
+  function(response) {   // response handler method
     console.log(response);
   }
 );
 ```
 
+Try it! What are the results?
+
+
+Take a look at the [Giphy API documentation](https://developers.giphy.com/docs/). 
+
+* What are the parameters we specified in the request?
+* What type of data is returned?
+
 
 ### Project
 
+Make a giphy search tool. Users can enter a search term. The page displays the first result.
 
-## Homework
+
 
 
 # Reference:
@@ -105,3 +114,4 @@ $.getJSON( // uses the GET http method
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
 * https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 * http://api.jquery.com/jquery.ajax/
+* https://developers.giphy.com/docs/
