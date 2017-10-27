@@ -106,7 +106,7 @@ Take a look at the [Giphy API documentation](https://developers.giphy.com/docs/)
 
 Make a giphy search tool. Users can enter a search term. The page displays the first result.
 
-
+For example: [https://becsegal.github.io/coderbabez-api-01/solution/](https://becsegal.github.io/coderbabez-api-01/solution/]
 
 
 # Reference:
