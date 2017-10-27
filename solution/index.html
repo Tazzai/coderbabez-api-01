@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+       <title>Giphy Search</title>
+
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+       <link rel="stylesheet" href="style.css">
+
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+
+  </head>
+  <body>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Giphy Search</a>
+
+          <div class="collapse navbar-collapse" >
+            <div class="navbar-nav mr-auto"></div>
+            <form class="form-inline my-2 my-lg-0" id='searchForm'>
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id='searchField'>
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id='searchButton'>Search</button>
+            </form>
+          </div>
+        </nav>
+        <div id='results'>
+        </div>
+      </div>    
+
+  </body>
+
+</html>
