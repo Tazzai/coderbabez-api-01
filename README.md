@@ -79,7 +79,7 @@ For an api, the parameters can be thought of separately from the url and we use 
 JSON is a way of representing javascript object as a string. 
 
 For example: [http://api.giphy.com/v1/gifs/search?q=dog&api_key=Rcx7a5vfUp1y6BZ1KjUtKLI2UovfkU3j](http://api.giphy.com/v1/gifs/search?q=dog&api_key=Rcx7a5vfUp1y6BZ1KjUtKLI2UovfkU3j)
-![BarkBox Plans API](http://wiki-content-bark.s3.amazonaws.com/coderbabez-giphy-search.png)
+![Giphy API](http://wiki-content-bark.s3.amazonaws.com/coderbabez-giphy-search.png)
 
 
 We can make that same request using jQuery instead of a browser:
