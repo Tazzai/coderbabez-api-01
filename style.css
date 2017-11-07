@@ -1,1 +1,17 @@
-style.css
+.container {
+  background-color: #dedddd;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+#button {
+  display: flex;
+}
+
+#results {
+  margin-top: 25px;
+}
+#results img {
+  padding: 5px;
+}
